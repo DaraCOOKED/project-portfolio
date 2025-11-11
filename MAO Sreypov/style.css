@@ -43,19 +43,21 @@ body{
 }
 
 .home-img{
-    height: 520px;
+    
     width: 100%;
     background-color: #1A0B2E;
     margin: auto;
     overflow: hidden;
     padding: 0;
+    position: absolute;
 }
 
 .img-main{
     width: 100%;
     height: 100%;
-    background-color: #6f00ff;
+    /* background-color: #6f00ff; */
     display: flex;
+    justify-content: normal;
 }
 .main-left{
     width: 50%;
@@ -72,7 +74,6 @@ body{
     position: absolute;
     width: 240px;
     height: 300px;
-    background-image: radial-gradient(#763CAC, #320F85);
     margin-left: 460px;
     margin-top: 79px;
     border-radius: 50%;
@@ -112,8 +113,69 @@ body{
 }
 
 .social-icons{
-    width: 100px;
+    width:auto;
     height: auto;
-    background-color: burlywood;
-    margin-left:10px ;
+    margin-top:55px;
 }
+
+.social-icons i{
+    font-size: 35px;
+    color: #6f00ff;
+}
+
+.social-icons a{
+    display: inline-block;
+    transition: 0.3s ease;
+    background-color: transparent;
+    color: #210f39;
+    
+
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-2px);
+}
+
+.main-down{
+    width: 40%;
+    height: 35%;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 450px;
+
+}
+
+.main-down h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.main-down h1{
+    padding: 0;
+    margin: 0%;
+}
+
+.main-down h3{
+    color: #ffffff ;
+    font-size: 16px;
+
+}
+.main-down h3{
+    margin: 0;
+    padding:0%;
+}
+
+.main-down h3 span{
+    color: #18d9f2;
+}
+
+.main-down h2{
+    color: #ffffff;
+}
+
+.exper.main{
+    width: 100%;
+    height: ;   
+}
+
