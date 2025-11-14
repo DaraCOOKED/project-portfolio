@@ -377,3 +377,27 @@ background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0)
     margin-top: 25px;
 }
 
+.skill-main{
+    width: 80%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.list-skill{
+    width: 35%;
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    margin: 20px;
+    
+    
+}
+
+.vue-js img{
+    height: 10px;
+}
